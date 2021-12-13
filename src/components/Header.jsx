@@ -13,7 +13,7 @@ export default function Header(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
+            Filters
           </Typography>
           <Button color="inherit">Sign in</Button>
           <Button color="inherit">Sign up</Button>

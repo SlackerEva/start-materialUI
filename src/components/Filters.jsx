@@ -15,7 +15,7 @@ export default function Filters(props) {
         <Divider />
         <ListItem>
           <FormGroup>
-            <FormControlLabel control={<Switch defaultChecked />} label="Понравившиеся" />
+            <FormControlLabel control={<Switch />} label="Понравившиеся" />
             <FormControlLabel control={<Switch />} label="Купленные" />
             <FormControlLabel control={<Switch defaultChecked />} label="Избранное" />
           </FormGroup>
